@@ -12,6 +12,11 @@ class Routes extends Component {
   render(){
     return(   
       <div>
+        <Row>
+          <Col>
+            <h3 className="sup">Sup Jess</h3>
+          </Col>
+        </Row>
         <nav>
           <div className="nav-wrapper">
             <a href="/" className="brand-logo center">
