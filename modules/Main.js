@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Route } from 'react-router-dom'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 
 import Routes from './Routes'
 import Home from './Home/Home'
@@ -10,10 +11,12 @@ class Main extends Component{
   render(){
     return(
       <div>
-        <Routes>
-          <Route exact path="/" component={Home}/>
-          <Route path="/cart" component={Cart}/>
-        </Routes>
+        <MuiThemeProvider>
+          <Routes>
+            <Route exact path="/" component={Home}/>
+            <Route path="/cart" component={Cart}/>
+          </Routes>
+        </MuiThemeProvider>
       </div>
     )
   }

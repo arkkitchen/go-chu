@@ -7,10 +7,9 @@ body{
 
 /*TOP NAV CSS*/
 nav{
-  background-color: transparent;
+  background-color: black;
   /*border: 2px solid black;*/
   height: 100px;
-  margin-top: .5%;
   margin-bottom: 2%
 }
 
@@ -19,7 +18,7 @@ nav{
   font-family: source code pro;
   letter-spacing: 10px;
   font-size: 11px;
-  color: black
+  color:  #1B9CE2
 }
 
 /*Margin that pushes login & cart to the left*/
@@ -29,23 +28,25 @@ nav{
 }
 
 #gochu_logo{
-  height: 70px;
-  width: 100px;
+  height: 150px;
+  width: 200px
   /*border: 2px solid black;*/
-  margin-top: 8%;
-  opacity: .85
+  /*opacity: .85*/
 }
 
+input{
+    border: 2px solid pink
+
+}
 #search_bar{
-    /*border: 2px solid black;*/
-    margin-top: 2.3%
+    border: 2px solid pink
 }
 
 #search_bar_text{
   font-family: source code pro;
   letter-spacing: 4px;
   font-size: 11px;
-  color: black
+  color: pink
 }
 
 

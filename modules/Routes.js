@@ -1,36 +1,36 @@
 import React, { Component } from 'react'
 import { Col, Row, Icon, Button } from 'react-materialize'
-import { NavLink } from 'react-router-dom'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 
+import NavBar from './NavBar'
 import Footer from './Footer'
 
 class Routes extends Component {
   constructor(){
     super()
+      this.state =
+        {bottles: 0}
+      this.jessClick=this.jessClick.bind(this)
+  }
+
+jessClick(){
+  this.setState({
+    bottles: this.state.bottles+1
+    })
   }
 
   render(){
-    return(   
+    return(
       <div>
-        <Row>
-          <Col>
-            <h3 className="sup">Sup Jess</h3>
-          </Col>
-        </Row>
-        <nav>
-          <div className="nav-wrapper">
-            <a href="/" className="brand-logo center">
-              <img id="gochu_logo" src="images/gochu_logo.png" alt="go chu"/>
-            </a>
-            <ul id="nav-mobile" className="right hide-on-med-and-down">
-              <li><NavLink to="/" className="nav-text">Home</NavLink></li>
-              <li><NavLink to="/cart" className="nav-text">Cart</NavLink></li>
-            </ul>
-          </div>
-        </nav>
+        <NavBar jess={this.state.bottles} />
+          <Button onClick={this.jessClick} />
+
+
         <div>
           {this.props.children}
         </div>
+
+
         <Footer/>
       </div>
     )
