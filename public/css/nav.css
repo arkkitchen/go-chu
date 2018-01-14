@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+body{
+  background-color: #f9f9f9
+}
+
+/*TOP NAV CSS*/
+nav {
+  background: transparent;
+  box-shadow: none;
+  height: 100px
+  /*border: 2px solid black*/
+
+}
+
+.nav-text{
+  font-family: source code pro;
+  letter-spacing: 10px;
+  font-size: 11px;
+  color:  #181818
+}
+
+/*Margin that pushes login & cart to the left*/
+#nav-mobile{
+  /*border: 2px solid black;*/
+  margin-right: 6.5%
+}
+
+nav .brand-logo{
+  /*font-family: source code pro;*/
+  font-family: Montserrat;
+  font-weight: lighter;
+  font-size: 15px;
+  letter-spacing: 3px;
+  color: #181818;
+  margin-left: 65px
+}
+
+/*#gochu_kitchen_logo{
+  height: 60px;
+  width: 100px;
+  margin-top: 20px
+}*/
+
+
+#search_bar{
+    /*border: 2px solid pink;*/
+    margin-top: 30px;
+
+}
+
+#search_bar_text{
+  font-family: source code pro;
+  letter-spacing: 4px;
+  font-size: 11px;
+  color: black
+}
+
+
+
+
+
+
+
+
+
+/*SIDE NAV CSS*/
+#side-nav{
+  /*border: 2px solid black*/
+  /*padding-top: 1%*/
+}
+
+.table-of-contents a{
+  padding: 20px;
+  font-family: source code pro;
+  letter-spacing: 8px;
+  font-size: 15px;
+  color: black
+}
+
+
+#blank_space{
+  /*border: 2px solid black;*/
+  height: 200px;
+  width: 40px
+}
+
+.slideImg{
+  height: 500px
+}
