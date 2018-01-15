@@ -9,7 +9,7 @@ class Home extends Component {
 
       <Row className="KT_heading">
         <Col s={12}>
-          <h6 class="center-align" id="kitchen_talk">KITCHEN TALK</h6>
+          <h6 className="center-align" id="kitchen_talk">KITCHEN TALK</h6>
         </Col>
       </Row>
 

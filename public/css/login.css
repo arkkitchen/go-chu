@@ -1,0 +1,56 @@
+#sign-in_butt{
+  background-color: #F7F7F7;
+  border: 1.5px solid black;
+  font-family: source code pro;
+  letter-spacing: 10px;
+  font-size: 11px;
+  color:  #181818;
+  margin-left: .8%
+}
+
+#sign-in_FB_butt{
+  background-color: #F7F7F7;
+  border: 1.5px solid black;
+  font-family: source code pro;
+  letter-spacing: 10px;
+  font-size: 11px;
+  color:  #181818;
+  margin-left: 3.5%
+}
+
+.login_heading{
+  margin-top: 4%;
+  margin-bottom: 3%;
+  /*border: 2px solid pink;*/
+  height: 50px;
+  width: 100%
+}
+
+#login{
+  font-family: Montserrat;
+  letter-spacing: 20px;
+  padding: 10px;
+  font-size: 25px;
+  color: black;
+  font-weight: bolder
+}
+
+.pw_signup{
+  font-family: Montserrat;
+  letter-spacing: 5px;
+  padding: 10px;
+  font-size: 8px;
+  color: black;
+  font-weight: bolder
+}
+
+
+#reset_butt{
+  background-color: #F7F7F7;
+  border: 1.5px solid black;
+  font-family: source code pro;
+  letter-spacing: 8px;
+  font-size: 11px;
+  color:  #181818;
+  /*margin-left: .8%*/
+}
