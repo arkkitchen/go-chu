@@ -28,21 +28,19 @@ nav {
   margin-right: 6.5%
 }
 
-nav .brand-logo{
-  /*font-family: source code pro;*/
+/*nav .brand-logo{
   font-family: Montserrat;
   font-weight: lighter;
   font-size: 15px;
   letter-spacing: 3px;
   color: #181818;
   margin-left: 65px
-}
-
-/*#gochu_kitchen_logo{
-  height: 60px;
-  width: 100px;
-  margin-top: 20px
 }*/
+
+#gochu_kitchen_logo{
+  height: 80px;
+  width: 350px
+}
 
 
 #search_bar{

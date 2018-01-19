@@ -41,7 +41,7 @@ class Login extends Component {
 
           <Row>
             <div>
-              <Col s={1} m={3} l={4}/>
+              <Col s={2} m={3} l={4}/>
               <Button className="center-align" id="sign-in_FB_butt">FACEBOOK SIGN IN</Button>
             </div>
           </Row>
