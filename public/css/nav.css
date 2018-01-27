@@ -15,6 +15,12 @@ nav {
 
 }
 
+.nav-text1{
+  font-family: source code pro;
+  letter-spacing: 10px;
+  font-size: 11px;
+  color:  #8CACB6
+}
 .nav-text{
   font-family: source code pro;
   letter-spacing: 10px;
@@ -38,8 +44,10 @@ nav {
 }*/
 
 #gochu_kitchen_logo{
-  height: 80px;
-  width: 350px
+  height: 95px;
+  width: 215px;
+  margin-left: 12%;
+  margin-top: 10%
 }
 
 
@@ -56,18 +64,26 @@ nav {
   color: black
 }
 
-
-
-
-
-
-
-
-
 /*SIDE NAV CSS*/
+.add_slideImg_container{
+  position: relative;
+  height: 55%;
+  width: 100%;
+  border: 2px solid blue
+}
+/* .add_slideImg {
+  border: 2px solid purple;
+  height: 55%;
+  width: 90%;
+  position: absolute;
+  top: 15%;
+  left: 10%
+} */
 #side-nav{
-  /*border: 2px solid black*/
-  /*padding-top: 1%*/
+  border: 2px solid black;
+  height: 35%;
+  width: 15%;
+  margin-right: 0px
 }
 
 .table-of-contents a{
@@ -76,15 +92,4 @@ nav {
   letter-spacing: 8px;
   font-size: 15px;
   color: black
-}
-
-
-#blank_space{
-  /*border: 2px solid black;*/
-  height: 200px;
-  width: 40px
-}
-
-.slideImg{
-  height: 500px
 }

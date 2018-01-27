@@ -1,11 +1,23 @@
 import React, { Component } from 'react'
-import { Row, Col, Card, CardTitle } from 'react-materialize'
+import { Row, Col, Card, CardTitle, Carousel } from 'react-materialize'
 
 
 class Home extends Component {
   render(){
     return(
-      <div>
+      <div className="body">
+
+      <Row className="add_slideImg">
+        <Col id="blank_space" s={2} m={2} l={2}/>
+          <Col s={9} m={9} l={9} className="carousel carousel-slider center" data-indicators="true">
+            <Carousel className="slideImg" options={{ fullWidth: true }} images={[
+              'images/samp2.jpg',
+              'images/samp3.jpg',
+              'images/samp1.jpg',
+              'images/samp4.jpg'
+            ]} />
+          </Col>
+        </Row>
 
       <Row className="KT_heading">
         <Col s={12}>

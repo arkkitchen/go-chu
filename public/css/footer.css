@@ -1,3 +1,7 @@
+.container .row{
+    margin-left: 30rem
+}
+
 .page-footer{
   background-color: #191919;
   height: 400px;

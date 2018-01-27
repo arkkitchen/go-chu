@@ -44,7 +44,7 @@
 #cart_line{
   width: 250px;
   height: 0px;
-  border: #004c00 1px solid;
+  border: #8BACB7 1px solid;
   margin-bottom: 15%
 
 }
@@ -57,19 +57,19 @@ letter-spacing: 5px;
 font-size: 10px;
 width: 250px;
 height: 45px;
-color: #004c00;
+color: #8BACB7;
 margin-bottom: 15%
 
 }
 #contShopping_butt{
 background-color: #F7F7F7;
-border: 1px solid black;
+border: 1px solid #8BACB7;
 font-family: source code pro;
 letter-spacing: 5px;
 font-size: 10px;
 width: 250px;
 height: 45px;
-color: #004c00;
+color: black;
 margin-bottom: 15%
 
 }

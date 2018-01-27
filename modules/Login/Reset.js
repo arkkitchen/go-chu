@@ -5,7 +5,7 @@ import { Row, Col, Input, Icon, Button} from 'react-materialize'
 class Reset extends Component {
   render(){
     return(
-      <div>
+      <div className="body">
         <Row className="login_heading">
           <Col s={12} m={12} l={12}>
             <h6 className="center-align" id="login">RESET PASSWORD</h6>
