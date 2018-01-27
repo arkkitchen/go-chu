@@ -15,7 +15,7 @@ class Routes extends Component {
       <div>
         <NavBar/>
         <Row>
-          <Col m={1}>
+          <Col s={3} m={1}>
             <ul className="section table-of-contents">
               <li className="side-nav-text"><a href="#introduction">PRODUCTS</a></li>
               <li className="side-nav-text"><a href="#structure">RECEPIES</a></li>
@@ -23,7 +23,7 @@ class Routes extends Component {
               <li className="side-nav-text"><a href="#initialization">RETAILERS</a></li>
             </ul>
           </Col>
-          <Col m={11} id="main-body">
+          <Col s={9} m={11} id="main-body">
             {this.props.children}
           </Col>
         </Row>
