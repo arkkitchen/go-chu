@@ -20,14 +20,7 @@ class NavBar extends Component{
         </div>
       </nav>
 
-        <div id="side-nav">
-          <ul className="section table-of-contents">
-            <li className="side-nav-text"><a href="#introduction">PRODUCTS</a></li>
-            <li className="side-nav-text"><a href="#structure">RECEPIES</a></li>
-            <li className="side-nav-text"><a href="#initialization">BLOG</a></li>
-            <li className="side-nav-text"><a href="#initialization">RETAILERS</a></li>
-          </ul>
-        </div>
+
 
 
 
