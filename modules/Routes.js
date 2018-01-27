@@ -14,7 +14,6 @@ class Routes extends Component {
     return(
       <div>
         <NavBar/>
-
         <Row>
           <Col m={1}>
             <ul className="section table-of-contents">
@@ -28,7 +27,6 @@ class Routes extends Component {
             {this.props.children}
           </Col>
         </Row>
-
         <Footer/>
       </div>
     )

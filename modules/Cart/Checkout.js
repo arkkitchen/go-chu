@@ -5,7 +5,7 @@ import { Row, Col, Input, Button} from 'react-materialize'
 class CheckOut extends Component {
   render(){
     return(
-      <div className="body">
+      <div>
         <Row className="login_heading">
           <Col s={12} m={12} l={12}>
             <h6 className="center-align" id="login">CHECKOUT</h6>
@@ -57,9 +57,6 @@ class CheckOut extends Component {
   		      <Button className="center-align truncate" id="reset_butt">SIGN UP</Button>
           </div>
         </Row>
-
-
-
       </div>
     )
   }

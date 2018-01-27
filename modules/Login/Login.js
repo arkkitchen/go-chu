@@ -5,7 +5,7 @@ import { Row, Col, Input, Icon, Button} from 'react-materialize'
 class Login extends Component {
   render(){
     return(
-      <div className="body">
+      <div>
         <Row className="login_heading">
           <Col s={12}>
             <h6 className="center-align" id="login">LOGIN</h6>
@@ -45,7 +45,6 @@ class Login extends Component {
               <Button className="center-align" id="sign-in_FB_butt">FACEBOOK SIGN IN</Button>
             </div>
           </Row>
-
       </div>
     )
   }
