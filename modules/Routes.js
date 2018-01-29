@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
-import { Col, Row, Icon, Button } from 'react-materialize'
-import { NavLink } from 'react-router-dom'
+import { Row, Col } from 'react-materialize'
 
+import NavBar from './NavBar'
 import Footer from './Footer'
+
 
 class Routes extends Component {
   constructor(){
@@ -10,27 +11,23 @@ class Routes extends Component {
   }
 
   render(){
-    return(   
+    return(
       <div>
+        <NavBar/>
         <Row>
-          <Col>
-            <h3 className="sup">Sup Jess</h3>
+          <Col s={1} m={1} l={1}>
+            <ul className="section table-of-contents">
+              <li className="side-nav-text"><a href="#introduction">PRODUCTS</a></li>
+              <li className="side-nav-text"><a href="#structure">RECEPIES</a></li>
+              <li className="side-nav-text"><a href="#initialization">BLOG</a></li>
+              <li className="side-nav-text"><a href="#initialization">RETAILERS</a></li>
+            </ul>
+          </Col>
+          <Col id="blank_space" s={1} m={1} l={1}/>
+          <Col s={9} m={9} l={9} id="main-body">
+            {this.props.children}
           </Col>
         </Row>
-        <nav>
-          <div className="nav-wrapper">
-            <a href="/" className="brand-logo center">
-              <img id="gochu_logo" src="images/gochu_logo.png" alt="go chu"/>
-            </a>
-            <ul id="nav-mobile" className="right hide-on-med-and-down">
-              <li><NavLink to="/" className="nav-text">Home</NavLink></li>
-              <li><NavLink to="/cart" className="nav-text">Cart</NavLink></li>
-            </ul>
-          </div>
-        </nav>
-        <div>
-          {this.props.children}
-        </div>
         <Footer/>
       </div>
     )

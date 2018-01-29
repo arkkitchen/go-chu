@@ -1,14 +1,16 @@
 import React, { Component } from 'react'
-import { Footer } from 'react-materialize'
+import { Footer, Row, Col } from 'react-materialize'
 
 class GoFooter extends Component{
   render(){
     return (
-      <Footer copyrights="&copy; GO CHU 2017. ALL RIGHTS RESERVED">
-        <hr></hr>
-        <h5 className="white-text">NEWSLETTER</h5>
-        <hr></hr>
-      </Footer>
+      <div>
+        <Footer>
+          <h1 id="newsletter_heading" className="white-text center-align">NEWSLETTER</h1>
+          <h6 className="white-text center-align newsletter_text">do the right thing. stay informed</h6>
+        </Footer>
+      </div>
+
     )
   }
 }
