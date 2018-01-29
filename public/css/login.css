@@ -4,7 +4,7 @@
   font-family: source code pro;
   letter-spacing: 10px;
   font-size: 11px;
-  color:  #C7261E;
+  color:  black;
   margin-left: .8%
 }
 
@@ -53,4 +53,8 @@
   font-size: 11px;
   color:  #181818;
   /*margin-left: .8%*/
+}
+
+#sign_up_text{
+  color: #C52926
 }

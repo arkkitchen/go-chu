@@ -55,13 +55,13 @@ class Login extends Component {
 
 
           <div>
-          <Col s={1} m={1} l={3}/>
+          <Col s={1} m={1} l={4}/>
             <a href="/reset"><h3 className="center-align pw_signup">FORGOT PASSWORD?</h3></a>
           </div>
 
           <div>
           <Col s={12} m={11} l={12}/>
-            <h3 className="center-align pw_signup">DONT HAVE AN ACCOUNT? <a href="/signup">SIGN UP!</a></h3>
+            <h3 className="center-align pw_signup">DONT HAVE AN ACCOUNT? <a href="/signup" id="sign_up_text">SIGN UP!</a></h3>
           </div>
 
           <Row>
