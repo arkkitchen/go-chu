@@ -53,6 +53,16 @@ nav {
 
 /*SIDE NAV CSS*/
 
+
+
+.menu_icon{
+  color: #C7261E;
+  margin-left: -180%;
+  background-color: transparent;
+  box-shadow: none;
+  font-size: 2.5
+}
+
 .table-of-contents a{
   /* border: 2px solid black; */
   padding: 25px;
@@ -62,4 +72,17 @@ nav {
   font-size: 15px;
   color: black
   /* background-color: pink */
+}
+
+.side-nav{
+  background-color:  #bdbdbd
+}
+
+.side-nav li>a{
+  padding: 35px;
+  margin-left: 25px;
+  font-family: source code pro;
+  letter-spacing: 8px;
+  font-size: 15px;
+  color: white
 }
