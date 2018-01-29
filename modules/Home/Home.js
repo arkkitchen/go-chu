@@ -19,7 +19,7 @@ class Home extends Component {
 
         <Row className="KT_heading">
           <Col s={12}>
-            <h6 className="center-align" id="kitchen_talk">KITCHEN TALK</h6>
+            <img src="images/KT/kt_logo.png" id="kitchen_talk"/>
           </Col>
         </Row>
 

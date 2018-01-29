@@ -1,78 +1,12 @@
-/*path {
-  stroke-linejoin: round;
-  stroke-linecap: round;
-}*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 
-body {
-  background: #f9f9f9
-}
-
-/*.brand-logo {
-  margin-left: 5px
-}
-
-.leaflet-container {
-  height: 800px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.spinner{
-  margin: 0 auto;
-}
-
-.noc-table{
-  font-size: 12px;
-}
-
-.dma-list td, .edge-list td {
-  padding:0;
-  margin:0;
-}
-
-.logo {
-  margin-left:10px;
-  margin-top:5px;
-}
-
-.noc-nav {
-  width: 100%;
-  height: 100%;
-  background: #232223;
-  text-align: right;
-}
-
-.noc-nav-item {
-  color: rgba(255, 255, 255, 0.75);
-}
-
-a {
-  margin-top: -5px;
-  color: rgba(255, 255, 255, 0.75);
-}*/
-
-/***************************************************/
-
-
-
-.KT_heading{
-  margin-top: 4%;
-  margin-bottom: 3%;
-  border: 2px solid black;
-  background-color: black;
-  height: 150px;
-  width: 100%
-}
-
 #kitchen_talk{
-  font-family: Montserrat;
-  letter-spacing: 20px;
-  padding: 50px;
-  font-size: 25px;
-  color: #8CACB6;
-  font-weight: bolder
+  height: 425px;
+  width: 90%;
+  margin-top: -12%;
+  margin-bottom: -8%;
+  margin-left: 4%
 }
 
 .KT_cards{
@@ -99,12 +33,6 @@ a {
   font-weight: lighter
 }
 
-
-.show_us_img{
-  height: 200px
-}
-
-
 .tabs .tab a {
   font-family: source code pro;
   letter-spacing: 4px;
@@ -117,19 +45,15 @@ a {
 
 /* SLIDING IMAGES */
 
+.carousel .carousel-item>img{
+  height: 100%
+}
+
 #blank_space{
-  height: 200px;
-  border: 2px solid red
+  height: 200px
+  /* border: 2px solid red */
 }
 
-/* .carousel{
-  height: 60%;
-  width: 85%;
-  border: 2px solid pink
-} */
-
-.slideImg{
-  width: 100%
+#main-body{
+  width: 80%
 }
-
-
