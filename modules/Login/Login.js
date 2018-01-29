@@ -47,29 +47,25 @@ class Login extends Component {
         </Row>
 
         <Row>
-          <div>
-            <Col s={3} m={4} l={5}/>
-  		      <Button className="center-align" id="sign-in_butt" onClick={this.login_user}>SIGN IN</Button>
-          </div>
+          <Col s={3} m={4} l={5}/>
+		      <Button className="center-align" id="sign-in_butt" onClick={this.login_user}>SIGN IN</Button>
         </Row>
 
+        <Row>
+          <Col s={4}/>
+          <a href="/reset"><h3 className="center-align pw_signup">FORGOT PASSWORD?</h3></a>
+        </Row>
 
-          <div>
-          <Col s={1} m={1} l={4}/>
-            <a href="/reset"><h3 className="center-align pw_signup">FORGOT PASSWORD?</h3></a>
-          </div>
-
-          <div>
-          <Col s={12} m={11} l={12}/>
-            <h3 className="center-align pw_signup">DONT HAVE AN ACCOUNT? <a href="/signup" id="sign_up_text">SIGN UP!</a></h3>
-          </div>
+        <Row>
+          <Col s={5}/>
+          <h3 className="center-align pw_signup">DONT HAVE AN ACCOUNT? <a href="/signup" id="sign_up_text">SIGN UP!</a></h3>
+        </Row>
 
           <Row>
-            <div>
-              <Col s={2} m={3} l={4}/>
-              <Button className="center-align" id="sign-in_FB_butt">FACEBOOK SIGN IN</Button>
-            </div>
+            <Col s={5}/>
+            <Button className="center-align" id="sign-in_FB_butt">FB SIGN IN</Button>
           </Row>
+
       </div>
     )
   }

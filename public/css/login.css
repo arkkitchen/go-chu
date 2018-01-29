@@ -15,7 +15,7 @@
   letter-spacing: 10px;
   font-size: 11px;
   color:  #4468B0;
-  margin-left: 1.5%
+  margin-left: -1.5%
 }
 
 .login_heading{
@@ -41,7 +41,8 @@
   padding: 10px;
   font-size: 8px;
   color: black;
-  font-weight: bolder
+  font-weight: bolder;
+  margin-left: 3.5%
 }
 
 
