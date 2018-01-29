@@ -25,7 +25,7 @@ class Home extends Component {
 
 
       <Row>
-        <Col s={12} m={1} l={3}>
+        <Col s={12} m={5} l={3}>
           <img class="materialboxed" width="250" src="images/KT/KT_samp1.png"/>
           <p>“Being famous won’t be easy because I’ll have to sing in front of a lot
           of people, and I get nervous. But I already sang in front of eleven people in music
@@ -55,9 +55,9 @@ class Home extends Component {
                   I think it was God himself.” (Mumbai, India)</p>
         </Col>
 
-        <Col s={1} m={1} l={1}/>
+        <Col s={12} m={1} l={1}/>
 
-        <Col s={12} m={1} l={3}>
+        <Col s={12} m={5} l={3}>
           <img class="materialboxed" width="250" src="images/KT/KT_samp4.png"/>
           <p>“My mother’s friends say that I’m just like her. She died of breast cancer when I
           was two years old. I had to grow up fast because my father was always working and seldom around.
@@ -87,9 +87,9 @@ class Home extends Component {
                   And I’m back to work, but this time with a team of people to help me carry the load.”</p>
         </Col>
 
-        <Col s={1} m={1} l={1}/>
+        <Col s={12} m={1} l={1}/>
 
-        <Col s={12} m={1} l={3}>
+        <Col s={12} m={5} l={3}>
           <img class="materialboxed" width="250" src="images/KT/KT_samp1.png"/>
           <p>“Being famous won’t be easy because I’ll have to sing in front of a lot
           of people, and I get nervous. But I already sang in front of eleven people in music
