@@ -9,7 +9,7 @@ class Home extends Component {
         <Row className="add_slideImg">
           <Col className="carousel carousel-slider center" data-indicators="true">
             <Carousel className="slideImg" options={{ fullWidth: true }} images={[
-              'images/samp2.jpg',
+              'images/slide/gochu_slide_1.jpg',
               'images/samp3.jpg',
               'images/samp1.jpg',
               'images/samp4.jpg'
