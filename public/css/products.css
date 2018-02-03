@@ -1,0 +1,27 @@
+.product_heading{
+  font-family: source code pro;
+  letter-spacing: 18px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #191919
+}
+
+.product_text{
+  font-family: source code pro;
+  letter-spacing: 3.8px;
+  font-size: 11px;
+  color: #191919
+}
+
+.bottle_img{
+  height: 340px;
+  width: 480px
+}
+
+.product_quanity{
+  font-family: source code pro;
+  letter-spacing: 12px;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #191919
+}

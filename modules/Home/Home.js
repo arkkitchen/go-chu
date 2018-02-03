@@ -26,13 +26,13 @@ class Home extends Component {
 
         <Row>
           <Col s={12} m={5} l={3}>
-            <img class="materialboxed" width="250" src="images/KT/KT_samp1.png"/>
+            <img className="materialboxed" width="250" src="images/KT/KT_samp1.png"/>
             <p>“Being famous won’t be easy because I’ll have to sing in front of a lot
             of people, and I get nervous. But I already sang in front of eleven people in music
             class. And I made a video on my mom’s phone that eighty-two people watched on
             Instagram.”</p>
 
-                <img class="materialboxed" width="250" src="images/KT/KT_samp2.png"/>
+                <img className="materialboxed" width="250" src="images/KT/KT_samp2.png"/>
                 <p>“I was late to the delivery room when she was born. But as soon as I walked in,
                 her eyes started tracking me. Like she knew I was her Dad. Even the nurses were laughing about
                 it. She’s always been my road dog. She never went through a ‘teenage phase.’ She never stopped
@@ -42,7 +42,7 @@ class Home extends Component {
                 I trust her completely and I want her to enjoy these years. I just hope that when she falls in
                 love with some dude, I’ll still get to see her.”</p>
 
-                    <img class="materialboxed" width="250" src="images/KT/KT_samp3.png"/>
+                    <img className="materialboxed" width="250" src="images/KT/KT_samp3.png"/>
                     <p>“When I was a child, it was up to me to feed our family because my father couldn’t work.
                     I had a job at a motorcycle repair shop. Everyone would sit at home and wait for me to make money.
                     Once we almost ran out of food. We didn’t have a single rupee and there was nothing to eat. I could
@@ -58,7 +58,7 @@ class Home extends Component {
           <Col s={12} m={1} l={1}/>
 
           <Col s={12} m={5} l={3}>
-            <img class="materialboxed" width="250" src="images/KT/KT_samp4.png"/>
+            <img className="materialboxed" width="250" src="images/KT/KT_samp4.png"/>
             <p>“My mother’s friends say that I’m just like her. She died of breast cancer when I
             was two years old. I had to grow up fast because my father was always working and seldom around.
             I was doing my own laundry at the age of seven. I figured the puberty thing out on my own. During
@@ -72,10 +72,10 @@ class Home extends Component {
             Something she made especially for me. Just one thing that actually says: ‘This is how much
             I love you.’”</p>
 
-                <img class="materialboxed" width="250" src="images/KT/KT_samp5.png"/>
+                <img className="materialboxed" width="250" src="images/KT/KT_samp5.png"/>
                 <p>“My mom made me a birthday dress!”</p>
 
-                    <img class="materialboxed" width="250" src="images/KT/KT_samp6.png"/>
+                    <img className="materialboxed" width="250" src="images/KT/KT_samp6.png"/>
                     <p>“A really bad divorce triggered the first and only manic episode of my life.
                     It was my body’s attempt to avoid feeling any pain. I was sleeping three hours a night
                     and doing handstands in the morning. I did a whole lot of writing. I’m a contractor–
@@ -90,13 +90,13 @@ class Home extends Component {
           <Col s={12} m={1} l={1}/>
 
           <Col s={12} m={5} l={3}>
-            <img class="materialboxed" width="250" src="images/KT/KT_samp1.png"/>
+            <img className="materialboxed" width="250" src="images/KT/KT_samp1.png"/>
             <p>“Being famous won’t be easy because I’ll have to sing in front of a lot
             of people, and I get nervous. But I already sang in front of eleven people in music
             class. And I made a video on my mom’s phone that eighty-two people watched on
             Instagram.”</p>
 
-                <img class="materialboxed" width="250" src="images/KT/KT_samp2.png"/>
+                <img className="materialboxed" width="250" src="images/KT/KT_samp2.png"/>
                 <p>“I was late to the delivery room when she was born. But as soon as I walked in,
                 her eyes started tracking me. Like she knew I was her Dad. Even the nurses were laughing about
                 it. She’s always been my road dog. She never went through a ‘teenage phase.’ She never stopped
@@ -106,7 +106,7 @@ class Home extends Component {
                 I trust her completely and I want her to enjoy these years. I just hope that when she falls in
                 love with some dude, I’ll still get to see her.”</p>
 
-                    <img class="materialboxed" width="250" src="images/KT/KT_samp3.png"/>
+                    <img className="materialboxed" width="250" src="images/KT/KT_samp3.png"/>
                     <p>“When I was a child, it was up to me to feed our family because my father couldn’t work.
                     I had a job at a motorcycle repair shop. Everyone would sit at home and wait for me to make money.
                     Once we almost ran out of food. We didn’t have a single rupee and there was nothing to eat. I could
