@@ -5,6 +5,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import Routes from './Routes'
 import Home from './Home/Home'
 import Cart from './Cart/Cart'
+import Products from './Products'
 import Checkout from './Cart/Checkout'
 import Login from './Login/Login'
 import Reset from './Login/Reset'
@@ -19,6 +20,7 @@ class Main extends Component{
           <Routes>
             <Route exact path="/" component={Home}/>
             <Route path="/cart" component={Cart}/>
+            <Route path="/products" component={Products}/>
             <Route path="/checkout" component={Checkout}/>
             <Route path="/login" component={Login}/>
             <Route path="/reset" component={Reset}/>

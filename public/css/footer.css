@@ -1,11 +1,6 @@
-.container .row{
-    margin-left: 30rem
-}
-
 .page-footer{
-  background-color: #191919;
-  height: 400px;
-  margin-bottom: 0
+  background-color: transparent
+  /* height: 350px */
 }
 
 hr{
@@ -17,13 +12,22 @@ hr{
   font-family: source code pro;
   letter-spacing: 20px;
   font-size: 25px;
-  font-weight: bolder
+  font-weight: bolder;
+  color: #191919
 }
 
 .newsletter_text{
   font-family: source code pro;
-  letter-spacing: 8px;
-  font-size: 10px
+  letter-spacing: 5px;
+  font-size: 11px;
+  color: #191919
+}
+
+#newsletter_subscribe_link{
+  color: #C7261E;
+  letter-spacing: 6px;
+  font-size: 15px;
+  border: 2px solid #181818
 }
 
 #newsletter_email_text{
@@ -47,14 +51,16 @@ hr{
 .footerTab_text{
   font-family: source code pro;
   letter-spacing: 7px;
-  font-size: 10px;
-  margin-top: 35px
+  font-size: 10.6px;
+  margin-top: 35px;
+  background-color: #C7261E
 }
 
-.copywrite{
+.page-footer .footer-copyright {
   font-family: source code pro;
   letter-spacing: 4px;
-  font-size: 8px
+  font-size: 8px;
+  color: #303030
 }
 
 .empty_space{

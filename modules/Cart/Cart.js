@@ -7,7 +7,6 @@ class Cart extends Component {
     return(
 
       <div>
-        <div className="container">
           <Row>
             <Col s={1} m={1} l={1}/>
 
@@ -55,7 +54,7 @@ class Cart extends Component {
               </Col>
             <Col s={1} m={1} l={1}/>
           </Row>
-        </div>
+        
       </div>
 
     )
