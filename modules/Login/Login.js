@@ -39,11 +39,11 @@ class Login extends Component {
 
         <Row>
           <Col s={3} m={3} l={3}/>
-          <Input className="center-align" s={12} m={12} l={6} label="EMAIL ADDRESS" validate onChange={(evt) => {this.setState({user_name: evt.target.value})}}><Icon>email</Icon></Input>
+          <Input className="placeholder_text" s={12} m={12} l={6} placeholder="EMAIL ADDRESS" validate onChange={(evt) => {this.setState({user_name: evt.target.value})}}><Icon>email</Icon></Input>
         </Row>
         <Row>
           <Col s={3} m={3} l={3}/>
-          <Input className="center-align" s={12} m={12} l={6} label="PASSWORD" validate onChange={(evt) => {this.setState({password: evt.target.value})}}><Icon>fingerprint</Icon></Input>
+          <Input className="placeholder_text" s={12} m={12} l={6} placeholder="PASSWORD" validate onChange={(evt) => {this.setState({password: evt.target.value})}}><Icon>fingerprint</Icon></Input>
         </Row>
 
         <Row>

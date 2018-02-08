@@ -6,6 +6,7 @@ import Routes from './Routes'
 import Home from './Home/Home'
 import Cart from './Cart/Cart'
 import Products from './Products'
+import Gallery from './Gallery'
 import Checkout from './Cart/Checkout'
 import Login from './Login/Login'
 import Reset from './Login/Reset'
@@ -21,6 +22,7 @@ class Main extends Component{
             <Route exact path="/" component={Home}/>
             <Route path="/cart" component={Cart}/>
             <Route path="/products" component={Products}/>
+            <Route path="/gallery" component={Gallery}/>
             <Route path="/checkout" component={Checkout}/>
             <Route path="/login" component={Login}/>
             <Route path="/reset" component={Reset}/>

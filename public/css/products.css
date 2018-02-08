@@ -14,8 +14,8 @@
 }
 
 .bottle_img{
-  height: 340px;
-  width: 480px
+  height: 290px;
+  width: 500px
 }
 
 .product_quanity{
@@ -24,4 +24,13 @@
   font-size: 15px;
   font-weight: bolder;
   color: #191919
+}
+
+.container_add2Cart{
+  height: 400px
+}
+
+.right{
+  height: 40px;
+  width: 380px
 }

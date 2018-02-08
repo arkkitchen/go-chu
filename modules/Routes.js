@@ -19,7 +19,7 @@ class Routes extends Component {
             <ul className="section table-of-contents hide-on-med-and-down">
               <li><a href="/products">PRODUCTS</a></li>
               <li><a href="#structure">RECEPIES</a></li>
-              <li><a href="#initialization">BLOG</a></li>
+              <li><a href="/gallery">GALLERY</a></li>
               <li><a href="#initialization">RETAILERS</a></li>
             </ul>
           </Col>
