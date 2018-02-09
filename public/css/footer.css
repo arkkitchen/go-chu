@@ -27,7 +27,8 @@ hr{
   color: #C7261E;
   letter-spacing: 6px;
   font-size: 15px;
-  border: 2px solid #181818
+  border: 2px solid #191919;
+  padding: 8px
 }
 
 #newsletter_email_text{
@@ -53,7 +54,11 @@ hr{
   letter-spacing: 7px;
   font-size: 10.6px;
   margin-top: 35px;
-  background-color: #C7261E
+  background-color: #C7261E;
+  /* padding: 1.5px; */
+  padding-left: 6px;
+  padding-bottom: 2.5px;
+  padding-top: 2px
 }
 
 .page-footer .footer-copyright {
